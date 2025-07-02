@@ -1,0 +1,7 @@
+avi,22,Programmer,45000
+avi,22,Tester,20000
+vikash,23,Programmer,45000
+vikas,22,Data Analyst,60000
+vikash,22,Data Analyst,60000
+avni,22,Tester,30000
+vikas,23,Data Analyst,60000

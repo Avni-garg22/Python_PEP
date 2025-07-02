@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello CSS</title>
+    <style>
+
+        #container{
+            display: flex;
+            flex-direction: column; 
+            border: 2px solid black;
+            height:300px;
+            justify-content: space-between;
+            /* flex-flow: column wrap; */
+        }
+
+        .dev{
+            background-color: lightblue;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid blue;
+            text-align: center;
+        }
+
+        #firstdiv{
+            background-color: pink;
+        }
+
+        #secdiv{
+            background-color: lightgreen;
+        }
+
+        #thirdiv{
+            background-color: lightcoral;
+        }
+
+        #fourdiv{
+            background-color: lightgoldenrodyellow;
+        }
+
+        #fivediv{
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="firstdiv" class="dev">First Div</div>
+        <div id="secdiv" class="dev">Second Div</div>
+        <div id="thirddiv" class="dev">Third Div</div>
+        <div id="fourthdiv" class="dev">Fourth Div</div>
+        <div id="fifthdiv" class="dev">Fifth Div</div>
+</body>
+</html>
